@@ -14,7 +14,9 @@ public class PairTestActivity extends Activity implements InterfacePair<String> 
 
         compareTo("ss");
 
-        NumberPair<Integer,Integer> numberPair=new NumberPair<>(12,22);
+        NumberPair<Integer, Integer> numberPair = new NumberPair<>(12, 22);
+
+
     }
 
     @Override
@@ -22,7 +24,7 @@ public class PairTestActivity extends Activity implements InterfacePair<String> 
         return 0;
     }
 
-    class NumberPair<U extends Integer,V extends Integer> extends SimplePair {
+    class NumberPair<U extends Integer, V extends Integer> extends SimplePair {
 
         public NumberPair(U first, V second) {
             super(first, second);
