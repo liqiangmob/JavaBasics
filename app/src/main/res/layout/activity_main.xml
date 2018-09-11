@@ -11,4 +11,24 @@
         android:gravity="center"
         android:text="ConstructWithPublicActivity" />
 
+
+
+    <TextView
+        android:id="@+id/Baseb_cActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Baseb_cActivity" />
+
+
+    <TextView
+        android:id="@+id/BaseAllActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="BaseAllActivity" />
+
+
+
+
 </LinearLayout>

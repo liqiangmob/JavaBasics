@@ -5,6 +5,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.demoutils.jinyuaniwm.javabasics.init.AABaseAllActivity;
+import com.demoutils.jinyuaniwm.javabasics.init.Baseb_cActivity;
 import com.demoutils.jinyuaniwm.javabasics.init.ConstructWithPublicActivity;
 
 public class MainActivity extends Activity {
@@ -20,6 +22,22 @@ public class MainActivity extends Activity {
             }
         });
 
+
+        findViewById(R.id.Baseb_cActivity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, Baseb_cActivity.class));
+
+            }
+        });
+
+        findViewById(R.id.BaseAllActivity).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, AABaseAllActivity.class));
+
+            }
+        });
     }
 
 

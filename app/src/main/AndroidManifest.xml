@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".init.ConstructWithPublicActivity"></activity>
+        <activity android:name=".init.ConstructWithPublicActivity" />
+        <activity android:name=".init.Baseb_cActivity" />
+        <activity android:name=".init.AABaseAllActivity"></activity>
     </application>
 
 </manifest>
