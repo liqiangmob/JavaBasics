@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".init.ConstructWithPublicActivity" />
         <activity android:name=".init.Baseb_cActivity" />
-        <activity android:name=".init.AABaseAllActivity"></activity>
+        <activity android:name=".init.AABaseAllActivity" />
+        <activity android:name=".Pair.PairTestActivity"></activity>
     </application>
 
 </manifest>
